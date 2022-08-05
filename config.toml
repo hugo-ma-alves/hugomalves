@@ -1,0 +1,150 @@
+baseURL = "https://hugomalves.com/"
+
+theme = "LoveIt"
+
+# website title
+title = "My New Hugo Site"
+languageCode = "en"
+languageName = "English"
+
+# Author config
+[author]
+  name = "Hugo Alves"
+  email = "hugo.ma.alves@gmail.com"
+  link = "https://hugomalves.com/"
+
+googleAnalytics = "UA-59820529-1"
+enableRobotsTXT = true
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "auto"
+  # public git repo url only then enableGitInfo is true
+  gitRepo = ""
+  # LoveIt NEW | 0.1.1 which hash function used for SRI, when empty, no SRI is used
+  # ["sha256", "sha384", "sha512", "md5"]
+  fingerprint = ""
+  # LoveIt NEW | 0.2.0 date format
+  dateFormat = "02-01-2006"
+  # website title for Open Graph and Twitter Cards
+  title = "My cool site"
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "This is my cool site"
+  # website images for Open Graph and Twitter Cards
+  images = ["/logo.png"]
+
+[params.social]
+  [params.social.github]
+    weight = 1
+    id = "hugo-ma-alves"
+  [params.social.linkedin]
+    weight = 2
+    id = "hugo-alves"
+  [params.social.email]
+    weight = 3
+    id = "hugo.ma.alves@gmail.com"
+  [params.social.rss]
+    weight = 4
+
+# Home page config
+[params.home]
+  rss = 10
+  # Home page profile
+  [params.home.profile]
+    enable = true
+    gravatarEmail = ""
+    # URL of avatar shown in home page
+    avatarURL = "/my_photo.jpg"
+    # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+    title = "My blog"
+    # subtitle shown in home page (HTML format is supported)
+    subtitle = "Random stuff about Java and networking"
+    # whether to use typeit animation for subtitle
+    typeit = false
+    # whether to show social links
+    social = true
+    # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+    disclaimer = ""
+  # Home page posts
+  [params.home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    paginate = 6
+
+# Header config
+[params.header]
+  # desktop header mode ["fixed", "normal", "auto"]
+  desktopMode = "fixed"
+  # mobile header mode ["fixed", "normal", "auto"]
+  mobileMode = "auto"
+  # LoveIt NEW | 0.2.0 Header title config
+  [params.header.title]
+    # URL of the LOGO
+    logo = ""
+    # title name
+    name = "Hey it's me"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+    typeit = false
+
+# Footer config
+[params.footer]
+  enable = true
+  # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+  custom = ''
+  # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+  hugo = true
+  # LoveIt NEW | 0.2.0 whether to show copyright info
+  copyright = true
+  # LoveIt NEW | 0.2.0 whether to show the author
+  author = true
+  # Site creation time
+  since = 2019
+
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About me"
+    url = "/about"
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false

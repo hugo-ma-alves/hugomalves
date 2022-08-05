@@ -1,0 +1,9 @@
+@startuml
+!theme toy
+hide footbox
+title BlueIris integration with n8n
+
+Camera -> BlueIris: Motion detected
+BlueIris -> n8n: Invoke webhook
+n8n -> Telegram: Send Message
+@enduml
