@@ -3,7 +3,6 @@ categories:
 - spring
 - java
 date: "2020-02-01T00:00:00Z"
-excerpt_separator: <!--more-->
 author: Hugo Alves
 tags:
 - spring
@@ -29,7 +28,6 @@ According to RFC 6902 we can define JSON patch like this:
 
 Lets take as example the following JSON document. This document defines the tipical User model used by most applications.
 
-<!--more-->
 
 ```json
 {
