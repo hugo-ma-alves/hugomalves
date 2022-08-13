@@ -14,7 +14,7 @@ languageName = "English"
   link = "https://hugomalves.com/"
 
 googleAnalytics = "UA-59820529-1"
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [params]
   # site default theme ["auto", "light", "dark"]
