@@ -26,24 +26,22 @@ If you want to contact me you can [email me](mailto:hugo.ma.alves@gmail.com), or
 
 ## My Projects
 
-Apart from my day job I like to keep some side project to learn new stuff. Whenever I start to learn a new thing I like to put it in practice, it is so much easier to learn when we can see something happening.
+Apart from my day job I like to keep some side project to learn new stuff.
+
 
 #### [This blog](#)
 
-In this site I will try to document all my experiences with technology. Since programming to network stuff.
-I will post tutorials about Spring, Linux, networking and some projects with Raspberry Pi. Some of the posts could be in Portuguese, sorry about that :).
+A basic static website generated with [HUGO](https://gohugo.io/). Here I will try to document some findings that I may think it could be usfeul for someone, mostly about Java, Spring or networking.
 
-Oh, and I also created this blog because I wanted to check out Jekyll and Github pages.
 
 #### [Coisas de Miúdos](https://www.coisasdemiudos.pt)
 
 The objective was to provide a platform where the Portuguese parents can buy and sell kids related stuff. For example the parents can sell the old toys that they don't need anymore, or the can buy a second hand stroller.
 
-The stack for this project is Python+Django. The app is running in a docker container.
-
+I used this project to leave my confort zone with Java and Spring and try to do something with Python and Django. 
 
 #### [Passar no Código](https://www.passarnocodigo.com/)
 
 This website is a platform where the users can practice for their Portuguese driving license exam. This app provides some tools that the users can use to practice before taking the real driving license exam. The users can do multiple modes of exams, for example with different difficulty levels. The users can also track their progress, with the statistics provided the users can choose the best moment to take the real exam.
 
-  This is a JHipster project (reactJs + Spring boot).
+This side project was usefull to learn reactJs and JHipster.
