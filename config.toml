@@ -15,12 +15,13 @@ languageName = "English"
 
 googleAnalytics = "UA-59820529-1"
 enableRobotsTXT = false
-
+  
 [params]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = ""
+  enableGitInfo = true
+  gitRepo = "https://github.com/hugo-ma-alves/hugomalves"
   # LoveIt NEW | 0.1.1 which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
@@ -104,7 +105,6 @@ enableRobotsTXT = false
   # Site creation time
   since = 2019
 
-
 # Menu config
 [menu]
   [[menu.main]]
@@ -144,7 +144,8 @@ enableRobotsTXT = false
 
 # Markup related configuration in Hugo
 [markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    lineNos = true
+
