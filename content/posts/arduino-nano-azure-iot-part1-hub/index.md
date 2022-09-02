@@ -10,14 +10,14 @@ resources:
   src: "images/banner.jpg"
 - name: featured-image-preview
   src: images/banner.jpg
-subtitle: Build a room temperature dashboard using Azure and Arduino Nano.
+subtitle: Build a room temperature monitor using Azure and Arduino Nano - part 1
 tags:
 - Arduino
 - azure
 - iot
 ---
 
-In this series of tutorials, we will build a room temperature dashboard with the help of Arduino and Azure. For measuring the temperature, we will use a temperature sensor connected to the Arduino nano board. Then, Arduino will periodically send the temperature values to Azure IoT Hub using the azure sdk c for Arduino and the mqtt protocol. Finally, we will transform this stream of data using Azure stream analytics and create some nice dashboards using PowerBi, also deployed in Azure.
+In this series of tutorials, we will build a room temperature monitor with the help of Arduino and Azure. For measuring the temperature, we will use a temperature sensor connected to the Arduino nano board. Then, Arduino will periodically send the temperature values to Azure IoT Hub using the azure sdk c for Arduino and the mqtt protocol. Finally, we will transform this stream of data using Azure stream analytics and create some nice dashboards using Azure Data Explorer, also deployed in Azure.
 
 We will start with only one temperature sensor to simplify the process, later I will add also a light sensor to have more data to play with, but feel free to adapt the code to add more/new sensors. Or even use some mocked data if you don't have any sensor available.\
 \
@@ -255,7 +255,7 @@ az iot hub monitor-events -n "${Replace by your hub name}" --login $CONNECTION_S
 
 ## Next steps
 
-At this point we have the raw data avaialable in azure IoT hub. Now we just need to parse it and start creating useful dashboards with it. This is the objective if the part 2 of this tutorial, we will use [azure stream analytics and powerBi][10] to parse and show the data collected by the Arduino sensors.
+At this point we have the raw data available in azure IoT hub. Now we just need to parse it and start creating useful dashboards with it. This is the objective if the [part 2 of this tutorial](https://www.hugomalves.com/posts/2022/09/create-dashboards-in-azure-data-explorer-using-azure-iot-hub-data/), we will use azure stream analytics jobs and Azure data explorer to parse and show the data collected by the Arduino sensors.
 
 ## Common errors
 

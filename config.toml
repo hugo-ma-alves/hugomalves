@@ -15,10 +15,13 @@ languageName = "English"
 
 googleAnalytics = "UA-59820529-1"
 enableRobotsTXT = false
-  
+
+[permalinks]
+  posts = '/posts/:year/:month/:title/'
+
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   enableGitInfo = true
   gitRepo = "https://github.com/hugo-ma-alves/hugomalves"
