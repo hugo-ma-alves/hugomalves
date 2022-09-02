@@ -220,10 +220,6 @@ If you followed the instructions of this guide you should have created all of yo
 
 {{< image src="images/resources_clean.jpg" alt="Delete all the resources" height="auto"  caption="Delete all the resources">}}
 
-
-//TODO change url in c git repo
-
-
 ## References
 
 - [Azure database explorer][1]
