@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /my_photo.jpg
+
+Sitemap: {{ "/sitemap.xml" | absLangURL }}

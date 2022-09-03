@@ -1,0 +1,98 @@
+baseURL: 'https://hugomalves.com/'
+title: Hugo Alves blog
+theme: LoveIt
+enableRobotsTXT: true
+languageCode: en
+languageName: English
+enableGitInfo: true
+googleAnalytics: UA-59820529-1
+author:
+  name: Hugo Alves
+  email: hugo.ma.alves@gmail.com
+  link: 'https://hugomalves.com/'
+permalinks:
+  posts: '/posts/:year/:month/:title/'
+params:
+  defaultTheme: light
+  gitRepo: 'https://github.com/hugo-ma-alves/hugomalves'
+  fingerprint: ''
+  dateFormat: 02-01-2006
+  title: Hugo Alves blog
+  description: Random stuff about Java and networking
+  images:
+    - /logo.png
+  social:
+    github:
+      weight: 1
+      id: hugo-ma-alves
+    linkedin:
+      weight: 2
+      id: hugo-alves
+    email:
+      weight: 3
+      id: hugo.ma.alves@gmail.com
+    rss:
+      weight: 4
+  home:
+    rss: 20
+    profile:
+      enable: true
+      gravatarEmail: ''
+      avatarURL: /my_photo.jpg
+      title: Hugo Alves blog
+      subtitle: Random stuff about Java and networking
+      typeit: false
+      social: true
+      disclaimer: ''
+    posts:
+      enable: true
+      paginate: 6
+  header:
+    desktopMode: fixed
+    mobileMode: auto
+    title:
+      logo: ''
+      name: ...
+      pre: ''
+      post: ''
+      typeit: false
+  footer:
+    enable: true
+    custom: ''
+    hugo: true
+    copyright: true
+    author: true
+    since: 2019
+menu:
+  main:
+    - weight: 1
+      identifier: posts
+      pre: ''
+      post: ''
+      name: Posts
+      url: /posts/
+      title: ''
+    - weight: 2
+      identifier: tags
+      pre: ''
+      post: ''
+      name: Tags
+      url: /tags/
+      title: ''
+    - weight: 3
+      identifier: categories
+      pre: ''
+      post: ''
+      name: Categories
+      url: /categories/
+      title: ''
+    - weight: 4
+      identifier: about
+      pre: ''
+      post: ''
+      name: About me
+      url: /about
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
