@@ -21,6 +21,10 @@ params:
   description: Random stuff about Java and networking
   images:
     - /logo.png
+  analytics:
+    enable: true
+    google:
+      id: "G-8V7YMQ1P1T"
   social:
     github:
       weight: 1
