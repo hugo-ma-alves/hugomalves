@@ -23,6 +23,7 @@ params:
     - /logo.png
   analytics:
     enable: true
+    id: "G-8V7YMQ1P1T"
   social:
     github:
       weight: 1
