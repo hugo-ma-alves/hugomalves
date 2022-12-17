@@ -1,4 +1,4 @@
 # My personal website
 
-[Hugo](https://gohugo.io/) static website avaialble here: https://www.hugomalves.com/
+[Hugo](https://gohugo.io/) static website available here: https://www.hugomalves.com/
 
